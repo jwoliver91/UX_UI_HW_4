@@ -1,0 +1,89 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+nav {
+    width: 98%;
+    padding: 1%;
+    background-image: linear-gradient(grey, white);
+}
+ul{
+    width: 100%;
+    margin-left: auto;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px
+}
+p{
+    font-family: 'Lato', sans-serif;
+
+}
+li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#heroGrid{
+    margin: 0 px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: images content about-me about-me;
+}
+#images{
+    grid-area: 1 5 span 3 span 3;
+    justify-content: flex-end;
+}
+#content{
+    grid-area: 1 1 span 3 span 3;
+    justify-content: flex-start;
+}
+#about-me{
+    grid-area: 5 1 span 3 span 3;
+    justify-content: flex-start;
+    align-items: center;
+}
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+.images{
+    margin: 0;
+   flex-direction: row;
+   justify-content: flex-end; 
+}
+    
+.content{
+    flex-direction: row;
+    width:80%;
+    align-items: center;
+    margin: 0 auto;
+}
+.about-me{
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20%;
+}
+footer{
+    width: 80%;
+    background-image: linear-gradient(white, grey);
+    margin: 75;
+    padding: 10%;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+li{ 
+    padding: 25px;
+}
